@@ -63,36 +63,36 @@ This assignment should prove that a student is able to:
   - [x] Should be a simple shape (square, circle, oval).
   - [x] Should have a border of any style, color and width.
   - [x] The face parts should NOT touch the border in their static positions.
-  - [ ] The corners of the face shape should NOT be a straight (right) angle.
-- [ ] Create unique random shapes for the following internal elements of the face:
-  - [ ] Left eye
-  - [ ] Right eye
-  - [ ] Nose
-  - [ ] Mouth
-  - [ ] Teeth/tooth
-  - [ ] **!!!Optional** Add any other part you want.
-- [ ] Create unique random shapes for the following external elements of the face:
-  - [ ] Hair style
-  - [ ] Left ear
-  - [ ] Right ear
-  - [ ] **!!!Optional** Add any other part you want.
-- [ ] Shapes must follow the guidelines:
-  - [ ] Each shape must be unique. It is permissible to use the same shape for two paired face elements, but they must have different orientations or directions.
-  - [ ] Use the following types of shapes:
-    - [ ] At least one square shape
-    - [ ] At least one circle shape
-    - [ ] At least one rectangle shape
-    - [ ] At least one oval shape
-    - [ ] Any other shapes of your choice. You can add additional containers to create a combined shape and additional classes inside the current face part.
-  - [ ] At least one shape should have a solid background color chosen from the available [HTML colors](https://www.w3schools.com/html/html_colors.asp).
-  - [ ] At least one shape should have a gradient background color chosen from the available [UI gradients](https://uigradients.com/).
-  - [ ] At least one shape should have a background image that fits the shape and doesn't overflow it, using images from [Lorem Picsum](https://picsum.photos/) or any other images CDN service.
-  - [ ] The width and / or height height of at least one shape should be based on the percentage units relative to the dimensions of the face shape.
-  - [ ] The width and / or height of at least one shape should be based on relative units relative to the font size.
-  - [ ] At least one shape should have an opacity of 50% or be semi-transparent.
-- [ ] Position the shapes inside or outside the face shape according to the following guidelines:
-  - [ ] In-face elements should be positioned in relation to their static position.
-  - [ ] External face shapes should be positioned in relation to the robot container or the face shape.
+  - [x] The corners of the face shape should NOT be a straight (right) angle.
+- [x] Create unique random shapes for the following internal elements of the face:
+  - [x] Left eye
+  - [x] Right eye
+  - [x] Nose
+  - [x] Mouth
+  - [x] Teeth/tooth
+  - [x] **!!!Optional** Add any other part you want.
+- [x] Create unique random shapes for the following external elements of the face:
+  - [x] Hair style
+  - [x] Left ear
+  - [x] Right ear
+  - [x] **!!!Optional** Add any other part you want.
+- [x] Shapes must follow the guidelines:
+  - [x] Each shape must be unique. It is permissible to use the same shape for two paired face elements, but they must have different orientations or directions.
+  - [x] Use the following types of shapes:
+    - [x] At least one square shape
+    - [x] At least one circle shape
+    - [x] At least one rectangle shape
+    - [x] At least one oval shape
+    - [x] Any other shapes of your choice. You can add additional containers to create a combined shape and additional classes inside the current face part.
+  - [x] At least one shape should have a solid background color chosen from the available [HTML colors](https://www.w3schools.com/html/html_colors.asp).
+  - [x] At least one shape should have a gradient background color chosen from the available [UI gradients](https://uigradients.com/).
+  - [x] At least one shape should have a background image that fits the shape and doesn't overflow it, using images from [Lorem Picsum](https://picsum.photos/) or any other images CDN service.
+  - [x] The width and / or height height of at least one shape should be based on the percentage units relative to the dimensions of the face shape.
+  - [x] The width and / or height of at least one shape should be based on relative units relative to the font size.
+  - [x] At least one shape should have an opacity of 50% or be semi-transparent.
+- [x] Position the shapes inside or outside the face shape according to the following guidelines:
+  - [x] In-face elements should be positioned in relation to their static position.
+  - [x] External face shapes should be positioned in relation to the robot container or the face shape.
 
 `For the Legal Page exercise`
 
@@ -100,7 +100,7 @@ This assignment should prove that a student is able to:
 - [ ] Edit the following files to solve that part of the assignemnt:
   - [ ] html: `/pages/legal-page.html`
   - [ ] css: `/css/legal-page.css`
-- [ ] The page heading container should be "pinned" in the top right beneath the herader and take the full width of the viewport, regardless of how far the user scrolls down the page content.
-- [ ] The footer should be anchored to the bottom of the viewport, ensuring it remains visible even while scrolling.
-- [ ] The section label should stay fixed in its parent while the user is scrolling through the current section.
+- [x] The page heading container should be "pinned" in the top right beneath the herader and take the full width of the viewport, regardless of how far the user scrolls down the page content.
+- [x] The footer should be anchored to the bottom of the viewport, ensuring it remains visible even while scrolling.
+- [x] The section label should stay fixed in its parent while the user is scrolling through the current section.
 - [ ] The content should not get obscured by any of the containers at the top and bottom of the page.
