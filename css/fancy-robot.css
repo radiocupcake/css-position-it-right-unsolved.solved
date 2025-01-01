@@ -139,7 +139,7 @@ body {
 
 .robot-hair-style {
   position: absolute;
-  top: -10px;
+  top: -50px; /* Move above the face shape without overlapping */
   width: 100%;
   display: flex;
   justify-content: center;
