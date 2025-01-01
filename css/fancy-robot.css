@@ -45,7 +45,7 @@ body {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-.robot-ear-left, .robot-ear-right {
+.robot-ear-left .robot-ear-right {
   position: absolute;
   top: 40%;
   width: 85px;
@@ -58,7 +58,7 @@ body {
   font-size: 24px;
   font-weight: bold;
   color: white;
-  border: ; 2px solid #00a3cc;
+  border: 2px solid #00a3cc;
 }
 
 .robot-ear-left {
@@ -139,7 +139,7 @@ body {
 
 .robot-hair-style {
   position: absolute;
-  top: -50px; /* Move above the face shape without overlapping */
+  top: -10px;
   width: 100%;
   display: flex;
   justify-content: center;
