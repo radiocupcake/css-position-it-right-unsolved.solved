@@ -27,22 +27,64 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  overflow: hidden;
+  overflow: visible; 
+}
+
+
+.robot-hair-style {
+  position: absolute;
+  top: -100px; 
+  left: 0; 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  z-index: 2;
+}
+
+.robot-hair-one {
+  width: 0;
+  height: 0;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-top: 100px solid green;
+  border-radius: 50%;
+  position: relative;
+  top: 0; 
+}
+
+.robot-hair-two {
+  position: absolute;
+  height: 15px;
+  width: 30px;
+  background-color: chartreuse;
+  top: 90px;
+  right: 40%;
+  z-index: 1;
+}
+
+.robot-hair-three {
+  position: absolute;
+  height: 15px;
+  width: 30px;
+  background-color: chartreuse;
+  top: 90px; 
+  left: 40%;
 }
 
 .robot-face-shape {
   position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
   height: 300px;
   width: 300px;
-  margin: 0 auto;
-  left: 50%;
-  top: 50%;
   background-color: cornflowerblue;
   border-radius: 10%;
   border: 4px solid darkblue;
-  transform: translate(-50%, -50%);
   overflow: hidden;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  z-index: 1;
 }
 
 .robot-ear-left .robot-ear-right {
@@ -137,42 +179,6 @@ body {
   margin: 0 5px;
 }
 
-.robot-hair-style {
-  position: absolute;
-  top: -10px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  gap: 5px;
-}
 
-.robot-hair-one {
-  width: 0;
-  height: 0;
-  border-left: 70px solid transparent;
-  border-right: 70px solid transparent;
-  border-top: 100px solid green;
-  border-radius: 50%;
-  position: relative;
-  top: 80px;
-}
 
-.robot-hair-two {
-  position: absolute;
-  height: 15px;
-  width: 30px;
-  background-color: chartreuse;
-  top: 170px;
-  right: 40%;
-  z-index: 1;
-}
-
-.robot-hair-three {
-  position: absolute;
-  height: 15px;
-  width: 30px;
-  background-color: chartreuse;
-  top: 170px; 
-  left: 40%;
-}
 
