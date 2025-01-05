@@ -2,8 +2,8 @@
   background-color: #e2e2e2;
   padding: 30px;
   width: 100%;
-  position: sticky; 
-  top: 60px; 
+  position: fixed;
+  top: 60px;
   left: 0;
   right: 0;
   z-index: 10;
@@ -15,12 +15,11 @@
   margin: 0 auto;
 }
 
-
 main {
-  padding-top: 160px; 
-  padding-bottom: 100px; 
+  padding-top: 160px;
+  padding-bottom: 100px;
   margin: 0 auto;
-  max-width: 900px; 
+  max-width: 900px;
 }
 
 section {
@@ -28,7 +27,7 @@ section {
   gap: 30px;
   position: relative;
   border-bottom: 1px solid grey;
-  padding: 30px;
+  padding-top: 30px;
   max-width: 900px;
   margin: 0 auto;
   color: white;
@@ -37,11 +36,11 @@ section {
 .section-label {
   width: 100%;
   background-color: #2b2d3b;
-  height: max-content;
   padding: 10px 16px;
-  position: sticky; 
-  top: 0;
-  z-index: 5; 
+  position: sticky;
+  top: 160px; /* Height of the exercise header (60px) + legal header (30px) */
+  z-index: 10;
+  height: 60px;
 }
 
 .document-content {
@@ -71,8 +70,8 @@ footer {
   background-color: #e2e2e2;
   padding: 0 30px;
   min-height: 70px;
-  position: fixed; 
-  bottom: 0; 
+  position: fixed;
+  bottom: 0;
   left: 0;
   z-index: 10;
 }
